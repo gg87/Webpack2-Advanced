@@ -6,8 +6,10 @@ Webpack 2 Advanced- Start from scratch
 
 Go to [Node website](https://nodejs.org/en/)
 
-- Install [yarn](https://yarnpkg.com/en/docs/install#mac-tab)
+- Install Yarn
 (npm should work as well)
+
+Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
 
 A very cool dependency management
 
@@ -54,9 +56,17 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 
 ## Features
 
-- [Webpack dev-server](https://github.com/webpack/webpack-dev-server)
-- [Babel (es6)](https://github.com/babel/babel-loader)
-- []
+- [Webpack dev-server](https://github.com/webpack/webpack-dev-server) with hot-reload
+- [Babel (es6)](https://github.com/babel/babel-loader) + polyfill
+- [EsLint](https://github.com/MoOx/eslint-loader)
+- [Resolve Url](https://github.com/bholloway/resolve-url-loader)
+- [PostCss](https://github.com/postcss/postcss-loader)
+- [Sass](https://github.com/webpack-contrib/sass-loader)
+- [Handlebars](https://github.com/pcardune/handlebars-loader)
+- [Extract Text-webpack plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)
+- [Html-webpack plugin](https://github.com/jantimon/html-webpack-plugin)
+- [Copy-webpack plugin](https://github.com/kevlened/copy-webpack-plugin)
+
 
 ## Conclusion
 
