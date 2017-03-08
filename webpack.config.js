@@ -36,6 +36,10 @@ const config = {
                 exclude: /node_modules/
             },
             {
+                test: /\.(woff(2)?|ttf|eot|svg|otf)(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'url-loader?limit=10000',
+            },
+            {
                 test: /\.(css|scss)$/, 
                 loader: ExtractTextPlugin.extract({
                     use: [
