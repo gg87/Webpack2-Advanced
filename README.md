@@ -60,6 +60,7 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 - [Babel (es6)](https://github.com/babel/babel-loader) + polyfill
 - [EsLint](https://github.com/MoOx/eslint-loader)
 - [Resolve Url](https://github.com/bholloway/resolve-url-loader)
+- [Url Loader](https://github.com/webpack-contrib/url-loader)
 - [PostCss](https://github.com/postcss/postcss-loader)
 - [Sass](https://github.com/webpack-contrib/sass-loader)
 - [Handlebars](https://github.com/pcardune/handlebars-loader)
