@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "selector-no-id": true,
+    "indentation": 2
+  }
+}
