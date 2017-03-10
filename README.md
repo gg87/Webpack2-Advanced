@@ -59,6 +59,7 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 - [Webpack dev-server](https://github.com/webpack/webpack-dev-server) with hot-reload
 - [Babel (es6)](https://github.com/babel/babel-loader) + polyfill
 - [EsLint](https://github.com/MoOx/eslint-loader)
+- [StyleLint](https://github.com/JaKXz/stylelint-webpack-plugin)
 - [Resolve Url](https://github.com/bholloway/resolve-url-loader)
 - [Url Loader](https://github.com/webpack-contrib/url-loader)
 - [PostCss](https://github.com/postcss/postcss-loader)
