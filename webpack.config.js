@@ -3,6 +3,7 @@ var CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var StyleLintPlugin = require('stylelint-webpack-plugin');
 var pkg = require('./package.json');
 
 const config = {
@@ -81,6 +82,12 @@ const config = {
         new HtmlWebpackPlugin({
             title: 'Custom template',
             template: 'src/index.html'
+        }),
+        new StyleLintPlugin({
+            configFile: '.stylelintrc',
+            context: 'src',
+            files: '**/*.scss',
+            failOnError: false
         })
     ]
 };
