@@ -4,7 +4,7 @@
   "description": "Webpack-Advanced-SFS",
   "main": "./src/index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --open",
     "build": "webpack"
   },
   "author": "",
