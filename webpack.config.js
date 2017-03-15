@@ -76,8 +76,7 @@ const config = {
             allChunks: true
         }),
         new CopyWebpackPlugin([
-            { from: 'src/images' , to: 'images'},
-            { from: 'src/fonts' , to: 'fonts'}
+            { from: 'src/images' , to: 'images'}
         ]),
         new HtmlWebpackPlugin({
             title: 'Custom template',
