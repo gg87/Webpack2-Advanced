@@ -68,7 +68,7 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 - [Extract Text-webpack plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)
 - [Html-webpack plugin](https://github.com/jantimon/html-webpack-plugin)
 - [Copy-webpack plugin](https://github.com/kevlened/copy-webpack-plugin)
-
+- CommonsChunkPlugin for [Underscore](http://underscorejs.org/)
 
 ## Conclusion
 
