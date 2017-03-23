@@ -8,7 +8,7 @@ var pkg = require('./package.json');
 
 const config = {
     entry: {
-        vendor: ['babel-polyfill'],
+        vendor: ['underscore'],
         main: './src/main.js'
     },
     output: {
