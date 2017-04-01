@@ -1,5 +1,5 @@
 # Webpack2-Advanced
-Webpack 2 Advanced- Start from scratch
+Webpack 2 Advanced - Start from scratch
 
 ## Installation
 - Install Node.js
